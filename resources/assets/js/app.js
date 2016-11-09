@@ -19,7 +19,21 @@ const app = new Vue({
     el: '#app',
     data: {
         message: 'Hello Vue!',
-        seen: false
+        seen: false,
+        todos: [
+            { name: 'Learn Javascript',
+              done: true,
+              priority: 4
+            },
+            { name: 'Learn PHP',
+              done: false,
+              priority: 5
+            },
+            { name: 'Buy bread',
+              done: false,
+              priority: 1
+            }
+        ]
     },
     methods: {
         reverseMessage: function() {
