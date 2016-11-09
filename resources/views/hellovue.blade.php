@@ -9,7 +9,7 @@
 </head>
 <body>
  <div id="app">
-     <p>@{{message}}</p>
+     <p v-if="seen">@{{message}}</p>
      <input type="text" v-model="message">
      <button v-on:click="reverseMessage">Reverse</button>
  </div>
