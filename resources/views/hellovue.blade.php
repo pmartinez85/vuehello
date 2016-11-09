@@ -11,6 +11,7 @@
  <div id="app">
      <p>@{{message}}</p>
      <input type="text" v-model="message">
+     <button v-on:click="reverseMessage">Reverse</button>
  </div>
  <script src="js/app.js"></script>
 </body>
