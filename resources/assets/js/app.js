@@ -21,15 +21,15 @@ const app = new Vue({
         message: 'Hello Vue!',
         seen: false,
         todos: [
-            { name: 'Learn Javascript',
+            { name: 'Learning Javascript',
               done: true,
               priority: 4
             },
-            { name: 'Learn PHP',
+            { name: 'Learning PHP',
               done: false,
               priority: 5
             },
-            { name: 'Buy bread',
+            { name: 'Buy some beer',
               done: false,
               priority: 1
             }
